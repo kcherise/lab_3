@@ -1,0 +1,175 @@
+:root {
+    background-color: rgba(0, 0, 21, 1);
+}
+
+a {
+	font-size: 20px;
+	padding: 20px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a:link, a:visited {
+	color: orange;
+}
+a:hover, a:active { 
+	background-color: orange;
+	color: white;
+}
+a.active { /* highlight current navigation */
+	background-color: orange;
+	color: white;
+}
+
+/* header navigation menu */
+.header {
+	background-color: rgba(0, 0, 21, 1);
+	width: 100%;
+	position: fixed; /* moves with scroll */
+}
+
+/* banner image */
+.banner {
+	height: 650px;
+	background-image: url("https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2021/06/How-Much-Overlap-is-There-Between-Computer-Science-and-Data-Science-1024x683.jpg");
+	background-size: cover;
+	background-color: #000015; 
+    background-position: center;
+}
+.banner-filter {
+	height: 650px;
+    background-color: rgba(0, 0, 21, .75);
+	display: flex;
+}
+.banner-txt {
+	width: 70%; 
+    margin: auto !important;
+    display: flex;
+	flex-wrap: wrap; 
+}
+.banner-txt p {
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+.banner-title {
+	color: orange;
+	font-weight: 800;
+	font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+	padding-bottom: 25px;
+}
+
+main {
+    width: 100%;
+	color: white;
+	line-height: 25px;
+}
+.title {
+    font-weight: 600;
+    font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+    margin: 50px 0px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.col {
+	background-color: rgba(255, 75, 255, 0.1);
+	column-count: 2;
+	column-gap: 100px;
+	column-rule: 4px solid orange;
+	font-size: 18px;
+	text-indent: 54px; 
+	margin: 0px 150px 150px;
+	padding: 50px 50px;
+}
+
+.essay {
+	background-size: cover;
+	background-color: orange;
+	color: black;
+	margin: 0 0;
+	padding: 10px 300px 100px;
+}
+.essay-title {
+	font-weight: 600;
+    font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.essay p {
+	font-size: 18px;
+	text-indent: 54px; 
+}
+
+.mapouter {
+	height: 500px;
+	width: 600px;
+	text-align: right;
+	position: absolute;
+}
+.gmap_canvas {
+	height: 600px;
+	width: 500px;
+	background: none !important;
+	overflow: hidden;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	background-color: rgba(0, 0, 21, .8);
+	color: white;
+	font-size: 18px;
+	border: 1px solid blueviolet;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 8px 0;
+	padding: 12px 20px;
+}
+input[type=text]:focus, input[type=password]:focus {
+	background-color: rgba(0, 0, 21, 1);
+	outline: none;
+}
+button {
+	width: 100%;
+	background-color: rgba(0, 0, 21, 1);
+	color: white; 
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	margin: 8px 0;
+	padding: 14px 20px;
+}
+button:hover {
+	opacity: .8;
+}
+label {
+	font-size: 18px;
+}
+.refer {
+	color: black !important; 
+	font-size: 18px;
+	text-decoration: underline;
+	display: inline;
+	padding: 0;
+}
+
+/* footer navigation menu */
+.footer {
+	background-color: rgba(0, 0, 21, 1);
+	width: 100%;
+	position: absolute; 
+}
+
+html {
+	scroll-behavior: smooth;
+}
+* {
+	font-family: Tahoma, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
